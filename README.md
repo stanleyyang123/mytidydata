@@ -1,11 +1,11 @@
 ### My procedure to get tidy data
 ---------------------------------------
 ### Set working directory
-#### Please put run_analysis.R and UCI HAR Dataset folder under the same folder as your working directory
+##### Please put run_analysis.R and UCI HAR Dataset folder under the same folder as your working directory
 
 #### 1 Merges the training and the test sets to create one data set
 ##### load test data set, assign features to column name, add "subject" and "activity" as ID variable; Do the same thing to train dataset. 
-#### use rbind() to combine testData and trainData to make a full data set
+##### use rbind() to combine testData and trainData to make a full data set
 
 
 #### 2 Extracts only the measurements on the mean and standard deviation for each measurement.
